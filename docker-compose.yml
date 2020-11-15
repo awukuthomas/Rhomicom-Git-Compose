@@ -1,6 +1,7 @@
 web:
   image: 'gitlab/gitlab-ce:latest'
   restart: always
+  container_name: rho-gitlab
   hostname: 'gitlab.rhomicom.com'
   environment:
     GITLAB_OMNIBUS_CONFIG: |
